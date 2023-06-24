@@ -1,4 +1,5 @@
 # url-shortner
+This is the backend for the URL shortner and it is deployed and live at: (URL Shortener Backend)[https://url-shortner-backend-hnpf.onrender.com/api]
 
 NOTE:"I have changed some response code from bad request code to OK code to display the result in the front end"
 
