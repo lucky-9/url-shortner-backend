@@ -18,7 +18,7 @@ router.post('/url',async function (req, res) {
         if(urlResult){
             return res.send(baseUrl + '/api/' +urlResult.code);
         }else{
-            const shorturl = baseUrl + '/api' +code;
+            const shorturl = baseUrl + '/api/' +code;
             const newUrl = new Url({
                 longurl,
                 shorturl,
