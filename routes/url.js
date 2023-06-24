@@ -18,14 +18,14 @@ router.post('/url',async function (req, res) {
         if(urlResult){
             return res.send(baseUrl + '/api/' +urlResult.code);
         }else{
-            const shorturl = baseUrl + '/' +code;
+            const shorturl = baseUrl + '/api' +code;
             const newUrl = new Url({
                 longurl,
                 shorturl,
                 code
             })
            await newUrl.save();
-           return res.send(baseUrl + '/api/'+shorturl);
+           return res.send(shorturl);
         }
 
 
