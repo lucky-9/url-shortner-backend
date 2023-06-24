@@ -1,4 +1,4 @@
 {
     "DB":"mongodb+srv://pavan:pavan@todo-iwjw6.mongodb.net/test?retryWrites=true&w=majority",
-    "base":"http://localhost:3000"
+    "base":"https://url-shortner-backend-hnpf.onrender.com"
 }
